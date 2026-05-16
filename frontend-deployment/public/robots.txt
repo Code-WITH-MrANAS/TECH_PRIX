@@ -1,0 +1,12 @@
+# TechPrix Robots.txt
+# https://www.techprix.online
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.techprix.online/sitemap.xml
+
+# Disallow admin and API paths
+Disallow: /api/
+Disallow: /.env
